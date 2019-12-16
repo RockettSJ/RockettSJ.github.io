@@ -1,0 +1,11 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h4 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron {
+	background: #2ecc71;
+}
