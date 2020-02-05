@@ -1,48 +1,178 @@
 <!DOCTYPE html>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
     <head>
-        <title>Steven Rockett</title>
-        <!-- CSS -->
-        <link
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-            crossorigin="anonymous"
+        <title>Steven Rockett's Portfolio</title>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, user-scalable=no"
         />
-        <link rel="stylesheet" href="style.css" />
-        <!-- Fonts -->
-        <link
-            href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap"
-            rel="stylesheet"
-        />
+        <link rel="stylesheet" href="assets/css/main.css" />
     </head>
-    <body>
+    <body class="is-preload">
         <!-- Header -->
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container text-center">
-                <h1 class="display-4 text-uppercase">Steven Rockett</h1>
-                <a href="https://github.com/RockettSJ" target="_blank"
-                    ><img src="images/GitHub-Mark-64px.png"
+        <header id="header">
+            <div class="inner">
+                <a class="image avatar"
+                    ><img src="images/avatar.png" alt=""
                 /></a>
+                <h1>
+                    <strong>Steven Rockett</strong>, a front-end<br />
+                    developer with a background in<br />
+                    Computer Science.
+                </h1>
             </div>
-        </div>
-        <div class="container"></div>
+        </header>
 
-        <!-- JS -->
-        <script
-            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"
-        ></script>
+        <div id="main">
+            <section id="two">
+                <h2>Recent Work</h2>
+                <p>
+                    The respective website can be viewed by clicking the images.
+                    The source code for each project can be viewed from the
+                    Github icons below the image. All links open in a new tab.
+                </p>
+                <div class="row">
+                    <article class="col-6 col-12-xsmall work-item">
+                        <a
+                            href="http://www.stevenrockett.com/Weather-App/"
+                            class="image fit thumb"
+                            ><img
+                                src="images/thumbs/Weather-Mock.jpg"
+                                alt="Screenshot of Weather App"
+                        /></a>
+                        <h3>
+                            Weather App
+                            <a
+                                href="https://github.com/RockettSJ/Weather-App"
+                                class="icon brands fa-github"
+                                style="padding-left: 5px;"
+                                ><span class="label">Github</span></a
+                            >
+                        </h3>
+                        <p>
+                            Using OpenWeatherMap and Giphy APIs to display
+                            weather information taken from user input.
+                        </p>
+                    </article>
+                    <article class="col-6 col-12-xsmall work-item">
+                        <a
+                            href="http://www.stevenrockett.com/Restaurant-Page/"
+                            class="image fit thumb"
+                            ><img src="images/thumbs/default-mock.jpg" alt=""
+                        /></a>
+                        <h3>
+                            Restaurant Page
+                            <a
+                                href="https://github.com/RockettSJ/Restaurant-Page"
+                                class="icon brands fa-github"
+                                style="padding-left: 5px;"
+                                ><span class="label">Github</span></a
+                            >
+                        </h3>
+                        <p>
+                            Written in pure Javascript. Demonstrating use of
+                            modular functions and Webpack.
+                        </p>
+                    </article>
+                    <article class="col-6 col-12-xsmall work-item">
+                        <a
+                            href="http://www.stevenrockett.com/Library"
+                            class="image fit thumb"
+                            ><img src="images/thumbs/default-mock.jpg" alt=""
+                        /></a>
+                        <h3>
+                            Library
+                            <a
+                                href="https://github.com/RockettSJ/Library"
+                                class="icon brands fa-github"
+                                style="padding-left: 5px;"
+                                ><span class="label">Github</span></a
+                            >
+                        </h3>
+                        <p>
+                            Interactive library page. Allows user to add/remove
+                            books and toggle whether they have been read.
+                        </p>
+                    </article>
+                    <article class="col-6 col-12-xsmall work-item">
+                        <a
+                            href="http://www.stevenrockett.com/Rock-Paper-Scissors"
+                            class="image fit thumb"
+                            ><img src="images/thumbs/default-mock.jpg" alt=""
+                        /></a>
+                        <h3>
+                            Rock, Paper, Scissors
+                            <a
+                                href="https://github.com/RockettSJ/Rock-Paper-Scissors"
+                                class="icon brands fa-github"
+                                style="padding-left: 5px;"
+                                ><span class="label">Github</span></a
+                            >
+                        </h3>
+                        <p>
+                            Currently playable through Javascript Console.
+                            Front-end is a work in progress.
+                        </p>
+                    </article>
+                    <article class="col-6 col-12-xsmall work-item">
+                        <a
+                            href="http://www.stevenrockett.com/JEMBA"
+                            class="image fit thumb"
+                            ><img src="images/thumbs/default-mock.jpg" alt=""
+                        /></a>
+                        <h3>
+                            JEM Bespoke Art
+                            <a
+                                href="https://github.com/RockettSJ/JEMBA"
+                                class="icon brands fa-github"
+                                style="padding-left: 5px;"
+                                ><span class="label">Github</span></a
+                            >
+                        </h3>
+                        <p>
+                            WordPress Theme with Enviro Gallery Plugin. Major
+                            work in progress for client's art portfolio.
+                        </p>
+                    </article>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <ul class="icons">
+                    <li>
+                        <a href="#" class="icon brands fa-linkedin"
+                            ><span class="label">LinkedIn</span></a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/RockettSJ"
+                            class="icon brands fa-github"
+                            ><span class="label">Github</span></a
+                        >
+                    </li>
+                </ul>
+                <ul class="copyright">
+                    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.poptrox.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
     </body>
 </html>
